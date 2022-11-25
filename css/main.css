@@ -318,7 +318,15 @@ template {
   display: none;
 }
 
-/* FONTS */ /* GENERAL */
+/* FONTS */
+/* titillium-web-regular - latin */
+@font-face {
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/titillium-web-v15-latin-regular.woff2") format("woff2"), url("../fonts/titillium-web-v15-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* GENERAL */
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -352,10 +360,8 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  /* font-family: "Roboto", "Arial", sans-serif; */
-  /* font-size: 16px; */
-  /* font-weight: 400; */
-  /* line-height: var(--main-line-height); */
+  font-family: "Titillium Web", "Arial", sans-serif;
+  font-weight: 400;
 }
 
 /* STICKY-FOOTER */
