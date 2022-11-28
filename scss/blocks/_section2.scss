@@ -1,0 +1,45 @@
+#section2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 80px;
+  background: url(http://templates.thememodern.com/theratio/images/bg/bg1-home1.jpg);
+
+  .decr_ {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    p {
+      width: 60%;
+      text-align: end;
+      color: #fff;
+      font-size: 30px;
+      margin: 0px 50px;
+      line-height: 50px;
+    }
+  }
+  .author {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    img {
+      width: 150px;
+      margin: 0 30px 0 50px;
+    }
+    .author_decr {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
+      span {
+        font-size: 24px;
+        color: #fff;
+      }
+      .job {
+        margin-top: 10px;
+        font-weight: 200;
+        font-size: 16px;
+      }
+    }
+  }
+}
