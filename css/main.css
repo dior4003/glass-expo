@@ -416,39 +416,6 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-
-#header .header_top {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 10px 20px;
-  background-color: rgb(20, 20, 20);
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  z-index: 5;
-}
-#header .header_top .buy_btn {
-  font-size: 14px;
-  text-decoration: none;
-  padding: 10px 30px;
-  color: #fff;
-  background-color: #6f9a37;
-  border-radius: 6px;
-  -webkit-box-shadow: 0 2px 0 #6f9a37;
-          box-shadow: 0 2px 0 #6f9a37;
-}
-#header .header_top .header_top_img h1 {
-  font-family: "Ms Madi", cursive;
-}
 #header .header_container {
   width: 100%;
   display: -webkit-box;
@@ -3714,18 +3681,6 @@ body {
           justify-content: space-between;
 }
 
-.our-blog__top {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
 .our-blog__start {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3872,9 +3827,6 @@ body {
 .footer-box__item img {
   width: 155px;
   margin-bottom: 30px;
-  height: 80px;
-  margin-bottom: 30px;
-  border: 1px solid #fff;
 }
 
 .footer-box__item-list {
@@ -4030,7 +3982,6 @@ body {
 }
 
 .footer-box__item-item a img {
-  border: 1px solid #fff;
   width: 25px;
   height: 25px;
   padding: 3px;
