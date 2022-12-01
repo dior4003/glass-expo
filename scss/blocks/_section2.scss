@@ -21,9 +21,10 @@
   .author {
     width: 50%;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     img {
       width: 150px;
+      height: 150px;
       margin: 0 30px 0 50px;
     }
     .author_decr {
@@ -39,6 +40,108 @@
         margin-top: 10px;
         font-weight: 200;
         font-size: 16px;
+      }
+    }
+  }
+}
+@media (max-width: 1440px) {
+  #section2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+    background: url(http://templates.thememodern.com/theratio/images/bg/bg1-home1.jpg);
+
+    .decr_ {
+      width: 50%;
+      display: flex;
+      justify-content: flex-end;
+      p {
+        width: 90%;
+        text-align: end;
+        color: #fff;
+        font-size: 30px;
+        margin: 0px 50px;
+        line-height: 50px;
+      }
+    }
+    .author {
+      width: 50%;
+      display: flex;
+      justify-content: flex-start;
+      img {
+        width: 150px;
+        height: 150px;
+        margin: 0 30px 0 50px;
+      }
+      .author_decr {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        span {
+          font-size: 24px;
+          color: #fff;
+        }
+        .job {
+          margin-top: 10px;
+          font-weight: 200;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1024px) {
+  #section2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 80px;
+    background: url(http://templates.thememodern.com/theratio/images/bg/bg1-home1.jpg);
+
+    .decr_ {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      p {
+        width: 90%;
+        text-align: center;
+        color: #fff;
+        font-size: 30px;
+        margin: 0px 50px;
+        line-height: 50px;
+      }
+    }
+    .author {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-top: 30px;
+      img {
+        width: 150px;
+        height: 150px;
+        margin: 0 30px 0 50px;
+      }
+      .author_decr {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        span {
+          font-size: 24px;
+          color: #fff;
+        }
+        .job {
+          margin-top: 10px;
+          font-weight: 200;
+          font-size: 16px;
+        }
       }
     }
   }
